@@ -2,36 +2,29 @@
 <div class="gray">
 </div>
 
+
 <footer>
 <div class="footer-title">
-    <p>
         渋川おとな図鑑
-    </p>
 </div>
 
 <div class="footer-subtitle">
-    <p>
-        渋川の大人と身近につながるメディア
-    </p>
-</div>
-
-<div class="footer-nav">
+      渋川の大人と身近につながるメディア
 </div>
 
 <div class="footer-box">
     <div class="footer-list li">
-        <p>
+    <ul>
+        <li>
             渋川おとな図鑑について
-        </p>
-        <p>
+        </li>
+        <li>
             運営団体
-        </p>
-        <p>
+        </li>
+        <li>
             お問い合わせ
-        </p>   
-    </div>
-
-    <div class="wrapper">
+        </li>   
+     </ul>   
     </div>
 
     <div class="site-number">
@@ -48,53 +41,49 @@
 .gray{
   width: 1920px;
   height: 780px;
+  top: 3066px;
   background-color: #C4C4C4;
 }
 
 footer{
+  margin: 50px;
   padding: 30px 0;
-  background-color: red;
+  background-color: white;
 }
-
-.wrapper{
-  width: 80%;
-  margin: 0 auto;
-  background-color: black;
-}
-
 .footer-title{
-  font-size: 2rem;
-  background-color: yellow;
+  font-size: 48px;
+  font-weight: 400;
+  background-color: white;
+  letter-spacing: 0.1em;
 }
 
 .footer-subtitle{
-  line-height: 1.5rem;
-  background-color: yellowgreen;
-}
-
-.footer-nav{
-  margin-top: 60px;
-  display: flex;
-  justify-content: space-between;
-  background-color: blue;
+  font-size: 19px;
+  line-height: 28px;
+  background-color: white;
+  letter-spacing: 0.1em;
 }
 
 .footer-list li{
+  margin: 30px;
   display: inline-block;
-  margin-right: 20px;
-  background-color: pink;
-}
-
-.footer-list li p{
-  display:inline-block;
+  background-color: white;
 }
 
 .footer-box{
+  margin-top: 30px;
+  padding-left: 40px;
   display:flex;
   justify-content:space-between;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .site-number{
-  background-color: gold;
+  padding-left: 10px;
+  margin: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: white;
 }
 </style>
