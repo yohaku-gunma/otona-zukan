@@ -1,0 +1,32 @@
+[33mcommit d58298d6d506dff0f68a02902668b51b8b90edba[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Yuta Toyokawa <kppg42@gmail.com>
+Date:   Sat Dec 24 00:15:54 2022 +0900
+
+    レイアウトが2重に作られるバグの修正
+
+[33mcommit 4378114f4f107a21f842bc247aa5fecdc66428da[m
+Merge: 1333aa3 6ea0647
+Author: 31-dream <116898762+31-dream@users.noreply.github.com>
+Date:   Wed Dec 14 23:50:30 2022 +0900
+
+    Merge pull request #1 from yohaku-gunma/miyuppe
+    
+    ミユのやりっけ
+
+[33mcommit 6ea064701e42380fcf68885e27cefb6adb83fc68[m[33m ([m[1;31morigin/miyuppe[m[33m)[m
+Author: miyu <weimeng0326.03@gmail.com>
+Date:   Wed Dec 14 23:37:26 2022 +0900
+
+    ミユのやりっけ
+
+[33mcommit 1333aa3236d045b5cdc469c219f7af4d30b8b86a[m
+Author: Yuta Toyokawa <kppg42@gmail.com>
+Date:   Mon Nov 28 23:29:31 2022 +0900
+
+    宿題の準備
+
+[33mcommit f354f671fc958cb78bb20dddcaf9d15f17e465e2[m
+Author: Yuta Toyokawa <kppg42@gmail.com>
+Date:   Fri Oct 28 20:39:49 2022 +0900
+
+    initial commit
