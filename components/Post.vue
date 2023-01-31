@@ -1,7 +1,7 @@
 <template>
 <li class="post">
   <div class="img"></div>
-  <h3>いい感じの肩書を持つ男　田中太郎</h3>
+  <h3>いい感じの肩書を持つ男 田中太郎</h3>
   <ul class="tags">
     <li class="tag">#サンプルハッシュタグ</li>
     <li class="tag">#よくいる人</li>
@@ -34,7 +34,7 @@ h3 {
 }
 
 .tags {
-  list-style: none;
+ list-style: none;
  font-size: 14px;
  display: flex;
  padding: 0;
