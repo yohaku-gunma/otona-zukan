@@ -1,60 +1,46 @@
 <template>
-<ul>
-  <li>
-    <div class="img"></div>
-    <h3>いい感じの肩書を持つ男　田中太郎</h3>
-    <div class="tag">#サンプルハッシュタグ#自由人#よくいる人</div>
-  </li>
-  <li>
-    <div class="img"></div>
-    <h3>かくれんぼおじさん　豊川　雄太</h3>
-    <div class="tag">#リモートワーカー</div>
-  </li>
-  <li>
-    <div class="img"></div>
-    <h3>革命家高校教師　千明　俊太</h3>
-    <div class="tag">#Nativeしぶかわん</div>
-  </li>
-</ul>
+<li class="post">
+  <div class="img"></div>
+  <h3>いい感じの肩書を持つ男 田中太郎</h3>
+  <ul class="tags">
+    <li class="tag">#サンプルハッシュタグ</li>
+    <li class="tag">#よくいる人</li>
+    <li class="tag">#自由人</li>
+  </ul>
+</li>
 </template>
 
 <style scoped>
-ul {
- display: flex;
- flex-direction: row;
- position: absolute;
+.post {
+  list-style: none;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.post:last-child {
+  margin-right: 0;
 }
 
 .img {
- width: 520px;
- height: 292.5px;
- background-color: black;
- margin-top: 120px;
+ width: 100%;
+ aspect-ratio: 16/9;
+ background-color: lightgrey;
  margin-bottom: 15px;
- margin-left: 40px;
 }
 
 h3 {
- width: 375px;
- height: 29px;
- font-family: 'Noto Sans JP';
- font-style: normal;
  font-size: 20px;
- line-height: 29px;
- letter-spacing: 0.1em;
- color: #000000;
+ margin-bottom: 10px;
+}
+
+.tags {
+ list-style: none;
+ font-size: 14px;
+ display: flex;
+ padding: 0;
 }
 
 .tag {
- width: 162px;
- height: 20px;
- font-family: 'Noto Sans JP';
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- line-height: 20px;
- letter-spacing: 0.1em;
- color: #000000;
+  margin-right: 10px;
 }
-
 </style>

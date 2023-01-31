@@ -1,29 +1,44 @@
 <template>
-
-<div class="flex-container">
-    <div class="flex-item1"></div>
-    <div class="flex-item2"><span class="main">1年で友達100人、群馬をこよなく愛する男&emsp;古内岳好</span>
-   <br> #移住者　＃ライフワーカー　＃趣味を本気で楽しむ人</div>
+<div class="recent-post">
+  <div class="image"></div>
+  <div class="contents">
+    <h2 class="title">1年で友達100人、群馬をこよなく愛する男 古内岳好</h2>
+    <ul class="tags">
+      <li class="tag">#移住者</li>
+      <li class="tag">＃ライフワーカー</li>
+      <li class="tag">＃趣味を本気で楽しむ人</li>
+    </ul>
+  </div>
 </div>
-
- 
-
 </template>
 
-
-
 <style scoped>
-.flex-container {
+.recent-post {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-content: stretch;}
-.flex-item1{background-color:  #C4C4C4;
-  width: 800px;
-  height: 450px;
-  padding:0;}
+  padding: 0 40px;
+  margin-bottom: 80px;
+}
 
-.flex-item2{}
-.main{font-weight:700;
-  font-size:36px;}
+.image{
+  background-color:  #C4C4C4;
+  width: 800px;
+  aspect-ratio: 16/9;
+  margin-right: 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0;
+}
+
+.tags {
+ list-style: none;
+ display: flex;
+ padding: 0;
+}
+
+.tag {
+  margin-right: 10px;
+}
 </style>
