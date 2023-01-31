@@ -1,8 +1,9 @@
 <template>
 <div>
   <GlobalHeader></GlobalHeader>
+  <Sidebar></Sidebar>
   <div class="wrapper">
-    <Sidebar></Sidebar>
+    <Hero></Hero>
     <RecentPost></RecentPost>
     <PostList></PostList>
   </div>
